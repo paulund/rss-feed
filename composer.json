@@ -1,17 +1,24 @@
 {
-    "name": "vendor/package-name",
-    "description": "Package description",
-    "keywords": [],
+    "name": "paulund/rss-feed",
+    "description": "Rss feed package for Laravel",
+    "keywords": [
+        "Paulund",
+        "laravel",
+        "content",
+        "package",
+        "rss"
+    ],
     "authors": [
         {
-            "name": "Author name",
-            "email": "author@domain.com",
+            "name": "Paul Underwood",
+            "email": "paul@paulund.co.uk",
             "role": "Developer"
         }
     ],
     "require": {
         "php": "^8.3",
-        "illuminate/contracts": "^10.0||^11.0"
+        "illuminate/contracts": "^10.0||^11.0",
+        "illuminate/support": "^10.0||^11.0"
     },
     "require-dev": {
         "laravel/pint": "^1.0",
@@ -23,7 +30,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\PackageName\\PackageNameServiceProvider"
+                "Paulund\\RssFeed\\RssFeedServiceProvider"
             ]
         }
     },
@@ -64,9 +71,9 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "VendorName\\PackageName\\": "src/",
-            "VendorName\\PackageName\\Tests\\": "tests/",
-            "VendorName\\PackageName\\Database\\Factories\\": "database/factories/"
+            "Paulund\\RssFeed\\": "src/",
+            "Paulund\\RssFeed\\Tests\\": "tests/",
+            "Paulund\\RssFeed\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {

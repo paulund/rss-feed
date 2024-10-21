@@ -1,6 +1,6 @@
 <?php
 
-namespace VendorName\PackageName\Tests\Unit;
+namespace Paulund\RssFeed\Tests\Unit;
 
 test('example', function () {
     expect(true)->toBeTrue();

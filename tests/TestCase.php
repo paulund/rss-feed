@@ -1,6 +1,6 @@
 <?php
 
-namespace VendorName\PackageName\Tests;
+namespace Paulund\RssFeed\Tests;
 
 use Illuminate\Foundation\Testing\Concerns\InteractsWithViews;
 
@@ -19,7 +19,7 @@ abstract class TestCase extends \Orchestra\Testbench\TestCase
     protected function getPackageProviders($app)
     {
         return [
-            \VendorName\PackageName\PackageNameServiceProvider::class,
+            \Paulund\RssFeed\RssFeedServiceProvider::class,
         ];
     }
 
