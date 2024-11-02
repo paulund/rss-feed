@@ -17,6 +17,7 @@
 
 # Ignore dependency management files
 composer.phar
+composer.lock
 
 # PHPUnit
 .phpunit.cache
