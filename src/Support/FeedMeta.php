@@ -21,7 +21,8 @@ class FeedMeta
         public array $cloud = [],
         public array $textInput = [],
         public array $skipHours = [],
-        public array $skipDays = []
+        public array $skipDays = [],
+        public ?string $stylesheet = null
     ) {}
 
     public function validate(): void

@@ -2,6 +2,9 @@
 /* Using an echo tag here so the `<? ... ?>` won't get parsed as short tags */
 '<?xml version="1.0" encoding="UTF-8"?>'.PHP_EOL
 ?>
+@if($meta->stylesheet)
+    <?= '<?xml-stylesheet href="'. $meta->stylesheet .'" type="text/xsl"?>'.PHP_EOL ?>
+@endif
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <atom:link href="{{ $meta->link }}" rel="self" type="application/rss+xml" />
