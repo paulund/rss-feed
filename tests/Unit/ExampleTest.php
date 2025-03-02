@@ -2,6 +2,6 @@
 
 namespace Paulund\RssFeed\Tests\Unit;
 
-test('example', function () {
+test('example', function (): void {
     expect(true)->toBeTrue();
 });
